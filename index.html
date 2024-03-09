@@ -8,14 +8,15 @@
     <link rel="stylesheet" href="styles.css">
 
     <style>
-        header{
+        header {
             display: flex;
             justify-content: space-around;
             align-items: center;
             background-color: rgb(66, 211, 201);
-            
+
         }
-        header ul{
+
+        header ul {
             display: flex;
             justify-content: space-around;
             align-items: center;
@@ -24,13 +25,15 @@
             font-size: 20px;
             font-weight: bold;
             color: #023436;
-            
+
         }
-        header ul li a{
+
+        header ul li a {
             text-decoration: none;
             color: #023436;
         }
-        header button{
+
+        header button {
             color: #023436;
             font-size: 20px;
             font-weight: bold;
@@ -38,15 +41,47 @@
             padding: 5px;
             border: none;
             border-radius: 5px;
-            
+
         }
 
-        header button:hover{
+        header button:hover {
             outline: 1px solid #0ef8f8;
             background-color: rgb(250, 213, 166);
             padding: 10px;
         }
+
+        main section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            margin: 20px;
+        }
+
+        .main-button{
+            color: #023436;
+            font-size: 20px;
+            font-weight: bold;
+            background-color: antiquewhite;
+            padding: 5px;
+            border: none;
+            border-radius: 5px;
+        }
+        .main-button:hover{
+            outline: 1px solid #0ef8f8;
+            background-color: rgb(250, 213, 166);
+            padding: 10px;
+        }
+
+        main{
+            display: flex;
+        }
+
+
+
+
     </style>
+
 </head>
 
 <body>
@@ -55,9 +90,9 @@
     <header>
         <div style="display: flex; align-items: center; justify-content: center; gap: 10px;">
             <img style="height: 50px; margin-bottom: 0;" src="images/image2-modified.png" alt="">
-            <div  style="margin-bottom: 10px;">
+            <div style="margin-bottom: 10px;">
                 <h3 style="margin-bottom: 0;">Nur Islam</h3>
-                <small  style="margin-bottom: 0;">Jr. Developer</small>
+                <small style="margin-bottom: 0;">Jr. Developer</small>
             </div>
         </div>
         <ul>
@@ -67,21 +102,37 @@
         <button>Blogs</button>
     </header>
 
-
-
-
-    <!-- 
+    <!-- main section -->
     <main>
-        <div>
-            <h2>Nur islam</h2>
-            <img src="images/image1.jpg" alt="">
-        </div>
-        <div style="height: 300px; width: 100%; border: 1px solid green;" id="background-image-add">
-            <img style="height: 200px; width: 200px;" src="images/image-setup.png" alt="">
-            
-        </div>
-    </main> -->
-
+        <section style="border: 1px solid blue; padding: 10px; border-radius: 10px;">
+            <img style="height: 300px; border-radius: 10px;" src="images/image1.jpg" alt="">
+            <div>
+                <h3>I am <span style="color: rgb(219, 129, 20);">Nur</span> Islam</h3>
+                <p style="text-align: justify;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi eos commodi non similique
+                    explicabo, voluptatibus neque, sit excepturi quidem nam tenetur ea illum aspernatur sequi
+                    repudiandae sapiente ex corporis ducimus! Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Et dicta possimus neque eligendi placeat excepturi qui beatae aliquam incidunt? Perspiciatis sit,
+                    laborum asperiores aperiam harum repellat fugiat quae maxime omnis!
+                    
+                </p>
+                <button class="main-button">Details</button>
+            </div>
+        </section>
+        <section style="border: 1px solid blue; padding: 10px; border-radius: 10px;">
+            <img style="height: 300px; border-radius: 10px;" src="images/image2.jpg" alt="">
+            <div>
+                <h3>I am <span style="color: rgb(219, 129, 20);">Nur</span> Islam</h3>
+                <p style="text-align: justify;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi eos commodi non similique
+                    explicabo, voluptatibus neque, sit excepturi quidem nam tenetur ea illum aspernatur sequi
+                    repudiandae sapiente ex corporis ducimus! Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Et dicta possimus neque eligendi placeat excepturi qui beatae aliquam incidunt? Perspiciatis sit,
+                    laborum asperiores aperiam harum repellat fugiat quae maxime omnis!
+                    
+                </p>
+                <button class="main-button">Details</button>
+            </div>
+        </section>
+    </main>
 
 
 
